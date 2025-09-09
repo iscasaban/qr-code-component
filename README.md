@@ -16,12 +16,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/qr-code-desktop.png)
+![](./screenshots/qr-code-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repo](https://github.com/iscasaban/qr-code-component)
+- Live Site URL: [My QR code component](https://iscasaban.github.io/qr-code-component/)
 
 ## My process
 
