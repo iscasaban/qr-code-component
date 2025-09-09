@@ -1,51 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Outfit', sans-serif;
   background: #d5e1ef;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 24px;
+  justify-content: center;
+  padding: 1rem;
 }
 
-article {
-  border: 16px 16px 40px 16px;
+main {
   background: #fff;
-  width: 320px;
-  height: 499px;
-  border-radius: 20px;
-  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
-}
-
-h1 {
-  font-size: 22px;
-  line-height: 120%;
-  letter-spacing: 0px;
-  font-weight: 700;
-  color: #1f314f;
-  text-align: center;
-}
-
-p {
-  font-size: 15px;
-  line-height: 140%;
-  letter-spacing: 0.2px;
-  font-weight: 400;
-  color: #68778d;
-  text-align: center;
+  padding: 1rem 1rem 2.5rem 1rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 1.5625rem 1.5625rem rgba(0, 0, 0, 0.0476518);
+  max-width: 20rem;
+  width: 100%;
 }
 
 .qr-card {
   background: #2c7dfa;
-  width: 288px;
-  height: 288px;
-  border-radius: 10px;
-  margin: 16px;
+  border-radius: 0.625rem;
+  margin: 1 rem;
 }
 
 .qr-code {
-  padding: 64px;
+  padding: 4rem;
 }
 
 section {
-  padding: 0px 16px;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 1.37rem;
+  line-height: 120%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: #1f314f;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 0.94rem;
+  line-height: 140%;
+  letter-spacing: 0.0125rem;
+  font-weight: 400;
+  color: #68778d;
+  text-align: center;
 }
